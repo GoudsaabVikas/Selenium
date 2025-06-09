@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://www.flipkart.com/"/>
+    <classes>
+      <class name="pageevent.PageEventTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeTestMethod"/>
+          <include name="f"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- pageevent.PageEventTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test thread-count="5" name="Tester(failed)">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="url" value="https://www.flipkart.com/"/>
+    <classes>
+      <class name="pageevent.PageEventTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeTestMethod"/>
+          <include name="f"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- pageevent.PageEventTest -->
+    </classes>
+  </test> <!-- Tester(failed) -->
+</suite> <!-- Failed suite [Suite] -->

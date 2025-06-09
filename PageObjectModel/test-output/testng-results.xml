@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-09T13:38:06 IST" name="Suite" finished-at="2025-06-09T13:38:20 IST" duration-ms="13681">
+    <groups>
+    </groups>
+    <test started-at="2025-06-09T13:38:06 IST" name="Ram" finished-at="2025-06-09T13:38:12 IST" duration-ms="6507">
+      <class name="pageevent.RamanaTest">
+        <test-method is-config="true" signature="beforeTestMethod()[pri:0, instance:pageevent.RamanaTest@7e07db1f]" started-at="2025-06-09T13:38:06 IST" name="beforeTestMethod" finished-at="2025-06-09T13:38:06 IST" duration-ms="349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.reflect.Method,java.lang.String)[pri:0, instance:pageevent.RamanaTest@7e07db1f]" started-at="2025-06-09T13:38:06 IST" name="beforeMethod" finished-at="2025-06-09T13:38:11 IST" duration-ms="4418" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void pageevent.RamanaTest.LoginTest()]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://ramanasoft.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="LoginTest()[pri:0, instance:pageevent.RamanaTest@7e07db1f]" started-at="2025-06-09T13:38:11 IST" name="LoginTest" finished-at="2025-06-09T13:38:11 IST" duration-ms="856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:pageevent.RamanaTest@7e07db1f]" started-at="2025-06-09T13:38:11 IST" name="afterMethod" finished-at="2025-06-09T13:38:11 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginTest status=SUCCESS method=RamanaTest.LoginTest()[pri:0, instance:pageevent.RamanaTest@7e07db1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:pageevent.RamanaTest@7e07db1f]" started-at="2025-06-09T13:38:11 IST" name="afterTest" finished-at="2025-06-09T13:38:12 IST" duration-ms="842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- pageevent.RamanaTest -->
+    </test> <!-- Ram -->
+    <test started-at="2025-06-09T13:38:12 IST" name="Tester" finished-at="2025-06-09T13:38:20 IST" duration-ms="7118">
+      <class name="pageevent.RamanaTest">
+        <test-method is-config="true" signature="beforeTestMethod()[pri:0, instance:pageevent.RamanaTest@128d2484]" started-at="2025-06-09T13:38:12 IST" name="beforeTestMethod" finished-at="2025-06-09T13:38:12 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.reflect.Method,java.lang.String)[pri:0, instance:pageevent.RamanaTest@128d2484]" started-at="2025-06-09T13:38:12 IST" name="beforeMethod" finished-at="2025-06-09T13:38:18 IST" duration-ms="5857" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void pageevent.RamanaTest.LoginTest()]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://ramanasoft.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="LoginTest()[pri:0, instance:pageevent.RamanaTest@128d2484]" started-at="2025-06-09T13:38:18 IST" name="LoginTest" finished-at="2025-06-09T13:38:19 IST" duration-ms="1088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:pageevent.RamanaTest@128d2484]" started-at="2025-06-09T13:38:19 IST" name="afterMethod" finished-at="2025-06-09T13:38:19 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginTest status=SUCCESS method=RamanaTest.LoginTest()[pri:0, instance:pageevent.RamanaTest@128d2484] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:pageevent.RamanaTest@128d2484]" started-at="2025-06-09T13:38:19 IST" name="afterTest" finished-at="2025-06-09T13:38:20 IST" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- pageevent.RamanaTest -->
+    </test> <!-- Tester -->
+  </suite> <!-- Suite -->
+</testng-results>
