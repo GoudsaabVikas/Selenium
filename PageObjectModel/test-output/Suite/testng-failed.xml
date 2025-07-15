@@ -16,19 +16,4 @@
       </class> <!-- pageevent.PageEventTest -->
     </classes>
   </test> <!-- Test(failed) -->
-  <test thread-count="5" name="Tester(failed)">
-    <parameter name="browser" value="firefox"/>
-    <parameter name="url" value="https://www.flipkart.com/"/>
-    <classes>
-      <class name="pageevent.PageEventTest">
-        <methods>
-          <include name="afterTest"/>
-          <include name="afterMethod"/>
-          <include name="beforeTestMethod"/>
-          <include name="f"/>
-          <include name="beforeMethod"/>
-        </methods>
-      </class> <!-- pageevent.PageEventTest -->
-    </classes>
-  </test> <!-- Tester(failed) -->
 </suite> <!-- Failed suite [Suite] -->

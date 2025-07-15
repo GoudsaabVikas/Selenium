@@ -8,8 +8,8 @@
           <include name="afterTest"/>
           <include name="afterMethod"/>
           <include name="beforeTestMethod"/>
-          <include name="UbuybtnTest"/>
           <include name="beforeMethod"/>
+          <include name="UbuybtnTest"/>
         </methods>
       </class> <!-- pageevent.UbuyETest -->
     </classes>

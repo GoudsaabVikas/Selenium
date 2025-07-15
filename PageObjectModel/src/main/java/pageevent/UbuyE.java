@@ -10,6 +10,7 @@ import com.aventstack.extentreports.ExtentTest;
 
 
 import pageobject.Ubuyob;
+import pageobject.click;
 import utils.Elementfetch;
 
 public class UbuyE {
@@ -60,7 +61,23 @@ public class UbuyE {
 	            throw e;
 	        }
 	    }
+	    public void Click() {
+	   k.getWebElement("xpath", Ubuyob.clicke).click();
+	   	
+	   	
+	   }
+
+		public void Boat() {
+			   k.getWebElement("xpath", Ubuyob.Boat).click();
+			   	
+			
+		}
+		public void King() {
+			   k.getWebElement("xpath", Ubuyob.k).click();
+			   	
+			
+		}
+
+
 	}
-
-
 

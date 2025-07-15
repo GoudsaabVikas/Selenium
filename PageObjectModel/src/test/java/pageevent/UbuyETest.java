@@ -13,5 +13,8 @@ public class UbuyETest extends Basetest{
   public void UbuybtnTest() {
     a.Ubuybtn(logger);
     a.enterPhoneNumber(logger);
+    a.Click();
+    a.Boat();
+    a.King();
   }
 }

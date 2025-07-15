@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-09T13:38:06 IST" name="Suite" finished-at="2025-06-09T13:38:20 IST" duration-ms="13681">
+  <suite started-at="2025-07-07T18:46:44 IST" name="Suite" finished-at="2025-07-07T18:47:00 IST" duration-ms="16279">
     <groups>
     </groups>
-    <test started-at="2025-06-09T13:38:06 IST" name="Ram" finished-at="2025-06-09T13:38:12 IST" duration-ms="6507">
-      <class name="pageevent.RamanaTest">
-        <test-method is-config="true" signature="beforeTestMethod()[pri:0, instance:pageevent.RamanaTest@7e07db1f]" started-at="2025-06-09T13:38:06 IST" name="beforeTestMethod" finished-at="2025-06-09T13:38:06 IST" duration-ms="349" status="PASS">
+    <test started-at="2025-07-07T18:46:44 IST" name="Test" finished-at="2025-07-07T18:46:51 IST" duration-ms="7388">
+      <class name="pageevent.PageEventTest">
+        <test-method is-config="true" signature="beforeTestMethod()[pri:0, instance:pageevent.PageEventTest@36bc55de]" started-at="2025-07-07T18:46:44 IST" name="beforeTestMethod" finished-at="2025-07-07T18:46:44 IST" duration-ms="337" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTestMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.reflect.Method,java.lang.String)[pri:0, instance:pageevent.RamanaTest@7e07db1f]" started-at="2025-06-09T13:38:06 IST" name="beforeMethod" finished-at="2025-06-09T13:38:11 IST" duration-ms="4418" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.reflect.Method,java.lang.String)[pri:0, instance:pageevent.PageEventTest@36bc55de]" started-at="2025-07-07T18:46:44 IST" name="beforeMethod" finished-at="2025-07-07T18:46:49 IST" duration-ms="4444" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -20,46 +20,46 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void pageevent.RamanaTest.LoginTest()]]>
+                <![CDATA[public void pageevent.PageEventTest.f()]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[https://ramanasoft.com/]]>
+                <![CDATA[https://www.flipkart.com/]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="LoginTest()[pri:0, instance:pageevent.RamanaTest@7e07db1f]" started-at="2025-06-09T13:38:11 IST" name="LoginTest" finished-at="2025-06-09T13:38:11 IST" duration-ms="856" status="PASS">
+        <test-method signature="f()[pri:0, instance:pageevent.PageEventTest@36bc55de]" started-at="2025-07-07T18:46:49 IST" name="f" finished-at="2025-07-07T18:46:50 IST" duration-ms="1762" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginTest -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:pageevent.RamanaTest@7e07db1f]" started-at="2025-06-09T13:38:11 IST" name="afterMethod" finished-at="2025-06-09T13:38:11 IST" duration-ms="5" status="PASS">
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:pageevent.PageEventTest@36bc55de]" started-at="2025-07-07T18:46:50 IST" name="afterMethod" finished-at="2025-07-07T18:46:50 IST" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=LoginTest status=SUCCESS method=RamanaTest.LoginTest()[pri:0, instance:pageevent.RamanaTest@7e07db1f] output={null}]]]>
+                <![CDATA[[TestResult name=f status=SUCCESS method=PageEventTest.f()[pri:0, instance:pageevent.PageEventTest@36bc55de] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:pageevent.RamanaTest@7e07db1f]" started-at="2025-06-09T13:38:11 IST" name="afterTest" finished-at="2025-06-09T13:38:12 IST" duration-ms="842" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:pageevent.PageEventTest@36bc55de]" started-at="2025-07-07T18:46:50 IST" name="afterTest" finished-at="2025-07-07T18:46:51 IST" duration-ms="797" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- pageevent.RamanaTest -->
-    </test> <!-- Ram -->
-    <test started-at="2025-06-09T13:38:12 IST" name="Tester" finished-at="2025-06-09T13:38:20 IST" duration-ms="7118">
-      <class name="pageevent.RamanaTest">
-        <test-method is-config="true" signature="beforeTestMethod()[pri:0, instance:pageevent.RamanaTest@128d2484]" started-at="2025-06-09T13:38:12 IST" name="beforeTestMethod" finished-at="2025-06-09T13:38:12 IST" duration-ms="2" status="PASS">
+      </class> <!-- pageevent.PageEventTest -->
+    </test> <!-- Test -->
+    <test started-at="2025-07-07T18:46:51 IST" name="Tester" finished-at="2025-07-07T18:47:00 IST" duration-ms="8869">
+      <class name="pageevent.PageEventTest">
+        <test-method is-config="true" signature="beforeTestMethod()[pri:0, instance:pageevent.PageEventTest@7c7b252e]" started-at="2025-07-07T18:46:51 IST" name="beforeTestMethod" finished-at="2025-07-07T18:46:51 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTestMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.reflect.Method,java.lang.String)[pri:0, instance:pageevent.RamanaTest@128d2484]" started-at="2025-06-09T13:38:12 IST" name="beforeMethod" finished-at="2025-06-09T13:38:18 IST" duration-ms="5857" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.reflect.Method,java.lang.String)[pri:0, instance:pageevent.PageEventTest@7c7b252e]" started-at="2025-07-07T18:46:51 IST" name="beforeMethod" finished-at="2025-07-07T18:46:56 IST" duration-ms="5269" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -68,38 +68,74 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void pageevent.RamanaTest.LoginTest()]]>
+                <![CDATA[public void pageevent.PageEventTest.f()]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[https://ramanasoft.com/]]>
+                <![CDATA[https://www.flipkart.com/]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="LoginTest()[pri:0, instance:pageevent.RamanaTest@128d2484]" started-at="2025-06-09T13:38:18 IST" name="LoginTest" finished-at="2025-06-09T13:38:19 IST" duration-ms="1088" status="PASS">
+        <test-method signature="f()[pri:0, instance:pageevent.PageEventTest@7c7b252e]" started-at="2025-07-07T18:46:56 IST" name="f" finished-at="2025-07-07T18:46:59 IST" duration-ms="2420" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginTest -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:pageevent.RamanaTest@128d2484]" started-at="2025-06-09T13:38:19 IST" name="afterMethod" finished-at="2025-06-09T13:38:19 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:pageevent.PageEventTest@7c7b252e]" started-at="2025-07-07T18:46:59 IST" name="afterMethod" finished-at="2025-07-07T18:46:59 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=LoginTest status=SUCCESS method=RamanaTest.LoginTest()[pri:0, instance:pageevent.RamanaTest@128d2484] output={null}]]]>
+                <![CDATA[[TestResult name=f status=SUCCESS method=PageEventTest.f()[pri:0, instance:pageevent.PageEventTest@7c7b252e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:pageevent.RamanaTest@128d2484]" started-at="2025-06-09T13:38:19 IST" name="afterTest" finished-at="2025-06-09T13:38:20 IST" duration-ms="157" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:pageevent.PageEventTest@7c7b252e]" started-at="2025-07-07T18:46:59 IST" name="afterTest" finished-at="2025-07-07T18:47:00 IST" duration-ms="1155" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Tried to run command without establishing a connection
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [6c4f100d-d7c1-421e-a3ac-3945cb43efae, quit {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 130.0.1, moz:accessibilityChecks: false, moz:buildID: 20240913135723, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14796, moz:profile: C:\Users\vikas\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 6c4f100d-d7c1-421e-a3ac-3945cb43efae]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [6c4f100d-d7c1-421e-a3ac-3945cb43efae, quit {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 130.0.1, moz:accessibilityChecks: false, moz:buildID: 20240913135723, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14796, moz:profile: C:\Users\vikas\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 6c4f100d-d7c1-421e-a3ac-3945cb43efae
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:126)
+at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- pageevent.RamanaTest -->
+      </class> <!-- pageevent.PageEventTest -->
     </test> <!-- Tester -->
   </suite> <!-- Suite -->
 </testng-results>

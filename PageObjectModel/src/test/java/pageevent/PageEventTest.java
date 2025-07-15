@@ -11,7 +11,8 @@ public class PageEventTest extends Basetest{
 	PageEvents I = new PageEvents();
   @Test
   public void f() {
+		 I.woung(logger);
 	 I.young(logger);
-	 I.woung(logger);
+
   }
 }
