@@ -83,7 +83,7 @@ public class Basetest {
 	    @AfterTest
 	    public void afterTest() {
 	        if (driver != null) {
-	        	driver.close();
+	        	
 	             driver.quit(); 
 	        }
 	        extent.flush();

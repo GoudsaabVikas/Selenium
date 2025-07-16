@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\vikas\git\repository2\PageObjectModel\test1.xml</span>
+                    <span>C:\Users\vikas\git\repository2\PageObjectModel\Ubuy.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -104,12 +104,12 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="pageevent.PageEventTest" class="method navigator-link" hash-for-method="f">f</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="pageevent.UbuyETest" class="method navigator-link" hash-for-method="UbuybtnTest">UbuybtnTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="pageevent.PageEventTest" class="method navigator-link" hash-for-method="f">f</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="pageevent.UbuyETest" class="method navigator-link" hash-for-method="UbuybtnTest">UbuybtnTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -127,21 +127,21 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">pageevent.PageEventTest</span>
+              <span class="class-name">pageevent.UbuyETest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="f">
-                  </a> <!-- f -->
-                  <span class="method-name">f</span>
+                  <a name="UbuybtnTest">
+                  </a> <!-- UbuybtnTest -->
+                  <span class="method-name">UbuybtnTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="f">
-                  </a> <!-- f -->
-                  <span class="method-name">f</span>
+                  <a name="UbuybtnTest">
+                  </a> <!-- UbuybtnTest -->
+                  <span class="method-name">UbuybtnTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -149,27 +149,27 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\vikas\git\repository2\PageObjectModel\test1.xml</span>
+            <span class="header-content">C:\Users\vikas\git\repository2\PageObjectModel\Ubuy.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;UbuyTest&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
-    &lt;parameter name=&quot;url&quot; value=&quot;https://www.flipkart.com/&quot;/&gt;
+    &lt;parameter name=&quot;url&quot; value=&quot;https://www.ubuy.co.in/&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;pageevent.PageEventTest&quot;/&gt;
+      &lt;class name=&quot;pageevent.UbuyETest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Tester&quot;&gt;
+  &lt;/test&gt; &lt;!-- UbuyTest --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;UbuyTest1&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
-    &lt;parameter name=&quot;url&quot; value=&quot;https://www.flipkart.com/&quot;/&gt;
+    &lt;parameter name=&quot;url&quot; value=&quot;https://www.ubuy.co.in/&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;pageevent.PageEventTest&quot;/&gt;
+      &lt;class name=&quot;pageevent.UbuyETest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Tester --&gt;
+  &lt;/test&gt; &lt;!-- UbuyTest1 --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -181,10 +181,10 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (1 class)</span>
+                <span class="test-name">UbuyTest (1 class)</span>
               </li>
               <li>
-                <span class="test-name">Tester (1 class)</span>
+                <span class="test-name">UbuyTest1 (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -212,13 +212,13 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'f')
-data.setCell(0, 2, 'pageevent.PageEventTest')
-data.setCell(0, 3, 2420);
+data.setCell(0, 1, 'UbuybtnTest')
+data.setCell(0, 2, 'pageevent.UbuyETest')
+data.setCell(0, 3, 2403);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'f')
-data.setCell(1, 2, 'pageevent.PageEventTest')
-data.setCell(1, 3, 1762);
+data.setCell(1, 1, 'UbuybtnTest')
+data.setCell(1, 2, 'pageevent.UbuyETest')
+data.setCell(1, 3, 1825);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -249,48 +249,46 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">pageevent.PageEventTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">pageevent.UbuyETest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">beforeTestMethod</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
-                <span class="method-name">beforeMethod(chrome, public void pageevent.PageEventTest.f(), https://www.flipkart.com/)</span>
-                <span class="method-start">361 ms</span>
+                <span class="method-name">beforeMethod(chrome, public void pageevent.UbuyETest.UbuybtnTest(), https://www.ubuy.co.in/)</span>
+                <span class="method-start">367 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">f</span>
-                <span class="method-start">4808 ms</span>
+                <span class="method-name">UbuybtnTest</span>
+                <span class="method-start">5340 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">afterMethod([TestResult name=f status=SUCCESS method=PageEventTest.f()[pri:0, instance:pageevent.PageEventTest@3...)</span>
-                <span class="method-start">6577 ms</span>
+                <span class="method-name">afterMethod([TestResult name=UbuybtnTest status=SUCCESS method=UbuyETest.UbuybtnTest()[pri:0, instance:pageevent...)</span>
+                <span class="method-start">7748 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">6583 ms</span>
+                <span class="method-start">7763 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-test before">
                 <span class="method-name">beforeTestMethod</span>
-                <span class="method-start">7406 ms</span>
+                <span class="method-start">8412 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
-                <span class="method-name">beforeMethod(firefox, public void pageevent.PageEventTest.f(), https://www.flipkart.com/)</span>
-                <span class="method-start">7410 ms</span>
+                <span class="method-name">beforeMethod(firefox, public void pageevent.UbuyETest.UbuybtnTest(), https://www.ubuy.co.in/)</span>
+                <span class="method-start">8415 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">f</span>
-                <span class="method-start">12679 ms</span>
+                <span class="method-name">UbuybtnTest</span>
+                <span class="method-start">14328 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">afterMethod([TestResult name=f status=SUCCESS method=PageEventTest.f()[pri:0, instance:pageevent.PageEventTest@7...)</span>
-                <span class="method-start">15100 ms</span>
+                <span class="method-name">afterMethod([TestResult name=UbuybtnTest status=SUCCESS method=UbuyETest.UbuybtnTest()[pri:0, instance:pageevent...)</span>
+                <span class="method-start">16155 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">afterTest</span>
-                <span class="method-start">15101 ms</span>
+                <span class="method-start">16155 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

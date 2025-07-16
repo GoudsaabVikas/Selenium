@@ -11,10 +11,10 @@ public class UbuyETest extends Basetest{
 
   @Test
   public void UbuybtnTest() {
-    a.Ubuybtn(logger);
-    a.enterPhoneNumber(logger);
+    a.Ubuybtn();
+   
     a.Click();
     a.Boat();
-    a.King();
+   
   }
 }

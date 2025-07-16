@@ -1,19 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" name="UbuyTest(failed)">
     <parameter name="browser" value="chrome"/>
-    <parameter name="url" value="https://www.flipkart.com/"/>
+    <parameter name="url" value="https://www.ubuy.co.in/"/>
     <classes>
-      <class name="pageevent.PageEventTest">
+      <class name="pageevent.UbuyETest">
         <methods>
           <include name="afterTest"/>
           <include name="afterMethod"/>
           <include name="beforeTestMethod"/>
-          <include name="f"/>
           <include name="beforeMethod"/>
+          <include name="UbuybtnTest"/>
         </methods>
-      </class> <!-- pageevent.PageEventTest -->
+      </class> <!-- pageevent.UbuyETest -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- UbuyTest(failed) -->
+  <test thread-count="5" name="UbuyTest1(failed)">
+    <parameter name="browser" value="Edge"/>
+    <parameter name="url" value="https://www.ubuy.co.in/"/>
+    <classes>
+      <class name="pageevent.UbuyETest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeTestMethod"/>
+          <include name="beforeMethod"/>
+          <include name="UbuybtnTest"/>
+        </methods>
+      </class> <!-- pageevent.UbuyETest -->
+    </classes>
+  </test> <!-- UbuyTest1(failed) -->
 </suite> <!-- Failed suite [Suite] -->
