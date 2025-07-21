@@ -3,71 +3,57 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>POM</groupId>
+  <groupId>com.yourcompany.project</groupId>
   <artifactId>PageObjectModel</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
+  <properties>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
+
   <dependencies>
-    <!-- Selenium -->
     <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
       <artifactId>selenium-java</artifactId>
       <version>4.15.0</version>
     </dependency>
-
-    <!-- TestNG -->
     <dependency>
       <groupId>org.testng</groupId>
       <artifactId>testng</artifactId>
       <version>7.8.0</version>
       <scope>test</scope>
     </dependency>
-
-    <!-- ExtentReports -->
     <dependency>
       <groupId>com.aventstack</groupId>
       <artifactId>extentreports</artifactId>
       <version>5.1.2</version>
     </dependency>
-
-    <!-- Commons IO -->
     <dependency>
       <groupId>commons-io</groupId>
       <artifactId>commons-io</artifactId>
       <version>2.11.0</version>
     </dependency>
-
-    <!-- Remove unnecessary or unclear dependency -->
-    <!-- <dependency>
-        <groupId>12</groupId>
-        <artifactId>29</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
-    </dependency> -->
   </dependencies>
 
   <build>
-    <sourceDirectory>src</sourceDirectory>
     <plugins>
-      <!-- Compiler plugin -->
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.10.1</version>
-        <configuration>
-          <source>1.8</source>
-          <target>1.8</target>
-        </configuration>
       </plugin>
 
-      <!-- Surefire plugin to run TestNG suites -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-surefire-plugin</artifactId>
-        <version>3.0.0-M9</version>
+        <version>3.0.0</version>
         <configuration>
           <suiteXmlFiles>
             <suiteXmlFile>testng.xml</suiteXmlFile>
             <suiteXmlFile>Ubuy.xml</suiteXmlFile>
-            </suiteXmlFiles>
+          </suiteXmlFiles>
+          <printSummary>true</printSummary>
+          <redirectTestOutputToFile>true</redirectTestOutputToFile>
         </configuration>
       </plugin>
     </plugins>
