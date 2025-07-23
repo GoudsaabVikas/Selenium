@@ -13,6 +13,7 @@ public class PageEventTest extends Basetest{
   public void f() {
 	  I.young();
 	  I.woung();
+	  I.king();
 
 
   }
